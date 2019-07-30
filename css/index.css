@@ -478,3 +478,27 @@ header .business-name {
     height: auto;
   }
 }
+.img-pair-1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.img-pair-1 .card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-items: flex-start;
+  border: 2px dashed white;
+  border-radius: 10px;
+  margin: 0 auto;
+  width: 500px;
+  height: 300px;
+}
+.img-pair-1 .card img {
+  border-radius: 10px;
+  border: 5px dashed grey;
+  position: relative;
+  margin: 3%;
+  width: 215px;
+  height: 215px;
+}
