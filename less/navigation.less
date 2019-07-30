@@ -1,0 +1,44 @@
+// Navigation Styles here
+.navigations {
+    width: 40%;
+    margin-right: 1%;
+    margin-top: 2%;
+    nav {
+        display: flex;
+        a {
+            text-align: center;
+            width: 25%;
+            height: 10%;
+            white-space: nowrap;
+            font-size: 1.5vw;
+            text-decoration: none;
+            margin: 2%;
+            margin-left: 5%;
+            margin-right: 5%;
+            padding: 1%;
+            color: white;
+            border: 1px solid white;
+            @media @smallLaptop {
+                width: 25%;
+                margin: 1%;
+                font-size: 3rem;
+                text-align: center;
+            }
+            @media @phone {
+                .flexDisplay(row, center);
+                width: 90%;
+                height: 10vh;
+                font-size: 3.5rem;
+                justify-content: center;
+            }
+        }
+        @media @phone {
+            .flexDisplay(column, center);
+            width: 100%;
+        }
+    }
+    @media @smallLaptop {
+        width: 100%;
+        margin: 5%;
+    }
+}
