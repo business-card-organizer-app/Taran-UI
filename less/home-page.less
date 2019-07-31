@@ -1,26 +1,31 @@
-
 header {
   @media @smallLaptop {
     .flexDisplay(column, center);
-  }  
+  }
+
   display: flex;
   width: 100%;
+
   .business-name {
     width: 50%;
     margin: 2%;
-    margin-bottom: 1%; 
+    margin-bottom: 1%;
+
     @media @smallLaptop {
       .flexDisplay(row, center);
       justify-content: center;
       width: 100%;
       margin-top: 8%;
+
       #logo {
         display: none;
       }
+
       h1 {
         font-size: 8vw;
       }
     }
+
     @media @tablet {
       h1 {
         font-size: 9vw;
@@ -32,16 +37,20 @@ header {
 .home {
   width: 100%;
   font-size: 10rem;
+
   .top-content {
     text-align: center;
     margin-bottom: 5%;
+
     @media @phone {
       width: 100%;
+
       p {
         width: 90%;
         margin-left: 5%;
       }
     }
+
     @media @smallPhone {
       width: 90%;
       margin-left: 5%;
@@ -52,15 +61,18 @@ header {
     .flexDisplay(row, center);
     width: 85%;
     margin: 0 auto;
+
     .card1 {
       .flexDisplay(column, center);
       margin: 0 auto;
       width: 500px;
       height: 400px;
+
       img {
         border-radius: 10px;
         width: 500px;
         height: 300px;
+
         @media @smallLaptop {
           padding: 3%;
           border-radius: 20px;
@@ -68,14 +80,17 @@ header {
           height: auto;
         }
       }
+
       h3 {
         margin-bottom: 3%;
       }
+
       @media @phone {
         width: 75%;
         margin-top: 3%;
         margin-left: 3%;
       }
+
       @media @smallLaptop {
         margin-right: 3%;
         width: auto;
@@ -83,15 +98,18 @@ header {
         margin-bottom: 3%;
       }
     }
+
     .card2 {
       .flexDisplay(column, center);
       margin: 0 auto;
       width: 500px;
       height: 400px;
+
       img {
         border-radius: 10px;
         width: 500px;
         height: 300px;
+
         @media @smallLaptop {
           padding: 3%;
           border-radius: 20px;
@@ -99,14 +117,17 @@ header {
           height: auto;
         }
       }
+
       h3 {
         margin-bottom: 3%;
       }
+
       @media @phone {
         width: 75%;
         margin-top: 3%;
         margin-right: 3%;
       }
+
       @media @smallLaptop {
         margin-left: 3%;
         width: auto;
@@ -114,6 +135,7 @@ header {
         margin-bottom: 3%;
       }
     }
+
     @media @phone {
       .flexDisplay(column, center);
       width: 100%;
@@ -125,15 +147,18 @@ header {
     .flexDisplay(row, center);
     width: 85%;
     margin: 0 auto;
+
     .card3 {
       .flexDisplay(column, center);
       margin: 0 auto;
       width: 500px;
       height: 400px;
+
       img {
         border-radius: 10px;
         width: 500px;
         height: 300px;
+
         @media @smallLaptop {
           padding: 3%;
           border-radius: 20px;
@@ -141,14 +166,17 @@ header {
           height: auto;
         }
       }
+
       h3 {
         margin-bottom: 3%;
       }
+
       @media @phone {
         width: 75%;
         margin-top: 3%;
         margin-left: 3%;
       }
+
       @media @smallLaptop {
         margin-right: 3%;
         width: auto;
@@ -156,15 +184,18 @@ header {
         margin-bottom: 3%;
       }
     }
+
     .card4 {
       .flexDisplay(column, center);
       margin: 0 auto;
       width: 500px;
       height: 400px;
+
       img {
         border-radius: 10px;
         width: 500px;
         height: 300px;
+
         @media @smallLaptop {
           padding: 3%;
           border-radius: 20px;
@@ -172,14 +203,17 @@ header {
           height: auto;
         }
       }
+
       h3 {
         margin-bottom: 3%;
       }
+
       @media @phone {
         width: 75%;
         margin-top: 9%;
         margin-right: 3%;
       }
+
       @media @smallLaptop {
         margin-left: 3%;
         width: auto;
@@ -187,6 +221,7 @@ header {
         margin-bottom: 3%;
       }
     }
+
     @media @phone {
       .flexDisplay(column, center);
       width: 100%;
@@ -194,50 +229,60 @@ header {
     }
   }
 }
+
 //About Us Photos
 
-  .row {
-    .flexDisplay(row, center);
-    justify-content: center;
+.row {
+  .flexDisplay(row, center);
+  justify-content: center;
+
+  @media @smallLaptop {
+    display: flex;
+    flex-direction: column;
+  }
+
+  @media @phone {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .card {
+    margin: 5%;
+
     @media @smallLaptop {
-      display: flex;
-      flex-direction: column;
+      .flexDisplay(row, left);
+      width: 500px;
+      margin-left: 10%;
     }
+
     @media @phone {
-      width: 100%;
+      .flexDisplay(column-reverse, center);
+      border: 1px solid white;
       margin-left: 0;
       margin-right: 0;
+      padding-bottom: 2%;
+
     }
-    .card {
-      margin: 5%;
+
+    @media @smallPhone {
+      width: 100%;
+    }
+
+    h3 {
+      margin-top: 5%;
+      margin-bottom: 10%;
+
       @media @smallLaptop {
         .flexDisplay(row, left);
-        width: 500px;
         margin-left: 10%;
       }
-      @media @phone {
-        .flexDisplay(column-reverse, center);
-        border: 1px solid white;
-        margin-left: 0;
-        margin-right: 0;
-        padding-bottom: 2%;
 
-      }
-      @media @smallPhone {
+      @media @phone {
+        justify-content: center;
         width: 100%;
-      }
-      h3 {
-        margin-top: 5%;
-        margin-bottom: 10%;
-        @media @smallLaptop {
-          .flexDisplay(row, left);
-          margin-left: 10%;
-        }
-        @media @phone {
-          justify-content: center;
-          width: 100%;
-          margin-left: 0;
-        }
+        margin-left: 0;
       }
     }
   }
+}

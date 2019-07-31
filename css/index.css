@@ -170,6 +170,7 @@ img {
   display: flex;
 }
 .navigations nav a {
+  position: relative;
   text-align: center;
   width: 25%;
   height: 10%;
@@ -181,11 +182,11 @@ img {
   margin-right: 5%;
   padding: 1%;
   color: white;
-  border: 1px solid white;
+  border: 2px solid white;
 }
 @media (max-width: 1280px) {
   .navigations nav a {
-    width: 25%;
+    width: 33%;
     margin: 1%;
     font-size: 3rem;
     text-align: center;
@@ -197,7 +198,7 @@ img {
     flex-direction: row;
     align-items: center;
     width: 90%;
-    height: 13vh;
+    height: 10vh;
     font-size: 3.5rem;
     justify-content: center;
   }
