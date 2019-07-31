@@ -200,25 +200,92 @@ header {
 }
 //About Us Photos
 
-.img-pair-1 {
+.img-1 {
   .flexDisplay(row, center);
   .card {
     .flexDisplay(row, center);
+    background-image: url("../img/card.png");
       align-items: flex-start;
       border: 2px dashed white;
       border-radius: 10px;
       margin: 0 auto;
+      margin-bottom: 5%;
       width: 500px;
       height: 300px;
       img {
         border-radius: 10px;
         border: 5px dashed grey;
         position: relative;
-        margin: 3%;
-        width: 215px;
-        height: 215px;
+        margin-left: 10%;
+        margin-top: 1%;
+        width: 220px;
+        height: 220px;
       }
-
+      .text-div {
+        .flexDisplay(column, center);
+        text-align: center;
+      }
+      h3 {
+        margin: 10%;
+      }
   }
 }
 
+.img-pair {
+  .flexDisplay(row, center);
+  justify-content: space-evenly;
+  .card-1 {
+    .flexDisplay(row, center);
+    background-image: url("../img/card.png");
+      align-items: flex-start;
+      border: 2px dashed white;
+      border-radius: 10px;
+      margin-bottom: 5%;
+      margin-left: 5%;
+      width: 500px;
+      height: 300px;
+      img {
+        border-radius: 10px;
+        border: 5px dashed grey;
+        position: relative;
+        margin-left: 10%;
+        margin-top: 1%;
+        width: 220px;
+        height: 220px;
+      }
+      .text-div {
+        .flexDisplay(column, center);
+        text-align: center;
+      }
+      h3 {
+        margin: 10%;
+      }
+  }
+  .card-2 {
+    .flexDisplay(row, center);
+    background-image: url("../img/card.png");
+      align-items: flex-start;
+      border: 2px dashed white;
+      border-radius: 10px;
+      margin-bottom: 5%;
+      margin-right: 5%;
+      width: 500px;
+      height: 300px;
+      img {
+        border-radius: 10px;
+        border: 5px dashed grey;
+        position: relative;
+        margin-left: 10%;
+        margin-top: 1%;
+        width: 220px;
+        height: 220px;
+      }
+      .text-div {
+        .flexDisplay(column, center);
+        text-align: center;
+      }
+      h3 {
+        margin: 10%;
+      }
+  }
+}

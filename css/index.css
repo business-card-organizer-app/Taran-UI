@@ -478,27 +478,107 @@ header .business-name {
     height: auto;
   }
 }
-.img-pair-1 {
+.img-1 {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
-.img-pair-1 .card {
+.img-1 .card {
   display: flex;
   flex-direction: row;
   align-items: center;
+  background-image: url("../img/card.png");
   align-items: flex-start;
   border: 2px dashed white;
   border-radius: 10px;
   margin: 0 auto;
+  margin-bottom: 5%;
   width: 500px;
   height: 300px;
 }
-.img-pair-1 .card img {
+.img-1 .card img {
   border-radius: 10px;
   border: 5px dashed grey;
   position: relative;
-  margin: 3%;
-  width: 215px;
-  height: 215px;
+  margin-left: 10%;
+  margin-top: 1%;
+  width: 220px;
+  height: 220px;
+}
+.img-1 .card .text-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.img-1 .card h3 {
+  margin: 10%;
+}
+.img-pair {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.img-pair .card-1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-image: url("../img/card.png");
+  align-items: flex-start;
+  border: 2px dashed white;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  margin-left: 5%;
+  width: 500px;
+  height: 300px;
+}
+.img-pair .card-1 img {
+  border-radius: 10px;
+  border: 5px dashed grey;
+  position: relative;
+  margin-left: 10%;
+  margin-top: 1%;
+  width: 220px;
+  height: 220px;
+}
+.img-pair .card-1 .text-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.img-pair .card-1 h3 {
+  margin: 10%;
+}
+.img-pair .card-2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-image: url("../img/card.png");
+  align-items: flex-start;
+  border: 2px dashed white;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  margin-right: 5%;
+  width: 500px;
+  height: 300px;
+}
+.img-pair .card-2 img {
+  border-radius: 10px;
+  border: 5px dashed grey;
+  position: relative;
+  margin-left: 10%;
+  margin-top: 1%;
+  width: 220px;
+  height: 220px;
+}
+.img-pair .card-2 .text-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.img-pair .card-2 h3 {
+  margin: 10%;
 }
