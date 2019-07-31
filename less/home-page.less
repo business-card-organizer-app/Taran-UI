@@ -196,27 +196,48 @@ header {
 }
 //About Us Photos
 
-  .card {
+  .row {
     .flexDisplay(row, center);
-      border-radius: 10px;
-      margin: 0 auto;
-      margin-bottom: 5%;
-      width: 50%;
-      height: 300px;
-      img {
-        border-radius: 10px;
-        position: relative;
+    justify-content: center;
+    @media @smallLaptop {
+      display: flex;
+      flex-direction: column;
+    }
+    @media @phone {
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0;
+    }
+    .card {
+      margin: 5%;
+      @media @smallLaptop {
+        .flexDisplay(row, left);
+        width: 500px;
         margin-left: 10%;
-        margin-top: 1%;
-        width: 300px;
-        height: 300px;
       }
-      .text-div {
-        .flexDisplay(column, left);
-        //text-align: center;
-        h3 {
-          margin: 10%;
-          font-size: 5rem;
+      @media @phone {
+        .flexDisplay(column-reverse, center);
+        border: 1px solid white;
+        margin-left: 0;
+        margin-right: 0;
+        padding-bottom: 2%;
+
+      }
+      @media @smallPhone {
+        width: 100%;
+      }
+      h3 {
+        margin-top: 5%;
+        margin-bottom: 10%;
+        @media @smallLaptop {
+          .flexDisplay(row, left);
+          margin-left: 10%;
+        }
+        @media @phone {
+          justify-content: center;
+          width: 100%;
+          margin-left: 0;
         }
       }
+    }
   }
