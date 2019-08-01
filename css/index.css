@@ -270,7 +270,7 @@ header .business-name {
 }
 .home .top-content {
   text-align: center;
-  margin-bottom: 5%;
+  margin-bottom: 10%;
 }
 @media (max-width: 700px) {
   .home .top-content {
@@ -293,6 +293,10 @@ header .business-name {
   align-items: center;
   width: 85%;
   margin: 0 auto;
+  margin-bottom: 10%;
+}
+.home .card-pair-1 .img-desc {
+  margin: 5%;
 }
 .home .card-pair-1 .card1 {
   display: flex;
@@ -330,7 +334,6 @@ header .business-name {
     margin-right: 3%;
     width: auto;
     height: auto;
-    margin-bottom: 3%;
   }
 }
 .home .card-pair-1 .card2 {
@@ -369,7 +372,6 @@ header .business-name {
     margin-left: 3%;
     width: auto;
     height: auto;
-    margin-bottom: 3%;
   }
 }
 @media (max-width: 700px) {
@@ -387,6 +389,10 @@ header .business-name {
   align-items: center;
   width: 85%;
   margin: 0 auto;
+  margin-bottom: 10%;
+}
+.home .card-pair-2 .img-desc {
+  margin: 5%;
 }
 .home .card-pair-2 .card3 {
   display: flex;
